@@ -1,5 +1,5 @@
 # About
-This is a simple project by Docket made to showcase my skills on Javascript, CSS and HMLT. I also used Sass on the development. By downloading the project you should be able to see a page like this: 
+This is a simple project by Docket made to showcase my skills on Javascript, CSS and HMLT. For this project I chose to use also Jquery, Classes on Javascript and Sass; but I am also able to code this in different ways. By downloading the project you should be able to see a page like this: 
 
 ![alt text](source/img/snapshot.png)
 
