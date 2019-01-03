@@ -1,0 +1,40 @@
+.footer {
+	@include transform(103deg); 
+	opacity: 0.8;
+	display: flex;
+	height: 219px;
+	padding-top: 80px;
+	padding-left: 60px;
+	&__logo {
+		padding-right: 60px;
+			img {
+				width: 80px;
+				height: 55px;
+				opacity: 100%;
+			}
+	}
+	&__line {
+		height: 55px;
+		border-right: 2px solid #DCE1E3;
+		opacity: 0.8;
+	}
+
+	&__column {
+		margin-left: 50px;
+		margin-right: 150px;
+		color: #FFFFFF;
+		line-height: 25px;
+		&__body {
+			&__media {
+				display: flex;
+				&__logo {
+					img {
+						width: 30px;
+						margin-right: 10px;
+						margin-top: 10px;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+.what-can-we-do {
+	margin-top: 100px;
+	margin-left: 123px;
+	position: relative;
+	background-image: url('../../source/img/Grafismo_setores.svg');
+	background-position: right bottom; 
+	background-repeat: no-repeat;
+	&__header {
+		color: #542F61;
+		font-size: 34px;
+		line-height: 43px;
+	}
+
+	&__columns {
+		margin-right: 123px;
+		display: flex;
+		&__column {
+			ul {
+				padding: 0;
+ 				list-style: none;
+ 				margin-right: 40px;
+ 				margin-bottom: 100px;
+				padding-bottom: 40px;
+ 				li {
+ 					min-height: 60px;
+ 					&::before {
+ 						vertical-align: middle;
+ 						content: "\2022";
+						color: #FF9800;
+						font-size: 30px;
+						margin-right: 20px;
+ 					}
+ 				}
+			}
+		}
+	}
+}
